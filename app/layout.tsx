@@ -63,9 +63,15 @@ export default function RootLayout({
         <footer className="border-t border-gray-100 bg-white/50 backdrop-blur-sm mt-16">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-2">
             <p className="text-sm text-gray-400">
-              © 2026 PrepWise AI · Built with Next.js, Supabase & Groq
+              © 2026 PrepWise AI · Built with Next.js, Supabase &amp; Groq
             </p>
-            <p className="text-xs text-gray-300">Smart studying starts here 🎓</p>
+            <p className="text-xs text-gray-500 font-medium">
+              Built by{" "}
+              <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent font-semibold">
+                Nduhura Marvin
+              </span>{" "}
+              · Smart studying starts here 🎓
+            </p>
           </div>
         </footer>
       </body>
